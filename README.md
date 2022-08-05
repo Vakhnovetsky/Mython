@@ -11,6 +11,26 @@
 `test_program.py` - исходный код на языке Mython\
 `out.txt` - файл с результатом выполнения
 
+Пример исходного кода:
+```python
+class Counter:
+  def __init__():
+    self.value = 0
+  def add():
+    self.value = self.value + 1
+class Dummy:
+  def do_add(counter):
+    counter.add()
+x = Counter()
+y = x
+x.add()
+y.add()
+print x.value
+d = Dummy()
+d.do_add(x)
+print y.value
+```
+
 ## Описание синтаксиса:
 * Целые числа
 * Строки - последовательность произвольных символов, размещающаяся на одной строке и ограниченная двойными кавычками `"` или одинарными `'`\
